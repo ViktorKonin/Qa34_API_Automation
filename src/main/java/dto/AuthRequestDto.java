@@ -10,6 +10,6 @@ import lombok.ToString;
 @ToString
 @Builder
 public class AuthRequestDto {
-    String email;
-    String password;
+    private String email;
+    private String password;
 }

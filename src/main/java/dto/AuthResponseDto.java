@@ -9,6 +9,6 @@ import lombok.ToString;
 @Getter
 @ToString
 @Builder
-public class AuthResponseDto   {
-    String token;
+public class AuthResponseDto {
+    private String token;
 }
