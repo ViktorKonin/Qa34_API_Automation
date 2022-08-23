@@ -13,7 +13,7 @@ public class RecordDto {
     private int breaks;
     private String currency;
     private DateDto date;
-    private  int hours;
+    private int hours;
     private int id;
     private String timeFrom;
     private String timeTo;
@@ -21,4 +21,6 @@ public class RecordDto {
     private int totalSalary;
     private String type;
     private int wage;
+
+
 }
