@@ -47,7 +47,7 @@ public class LoginTestsOkHttp {
 
         Response response = client.newCall(request).execute();
         ErrorDto errorDto = gson.fromJson(response.body().string(), ErrorDto.class);
-        Assert.assertEquals(response.code(), 401);//bug
+        Assert.assertEquals(response.code(), 400);//bug
         Assert.assertTrue(errorDto.getMessage().contains("Wrong email or password")); //bug
     }
 
